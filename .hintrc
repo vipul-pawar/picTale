@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": "off",
+    "axe/forms": "off",
+    "no-inline-styles": "off",
+    "css-prefix-order": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "axe/structure": "off"
+  }
+}
