@@ -2,18 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>picTale.in</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 {% include "pic/navbar.html" %}
 <body>
     <div class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24">
+
+        <!-- Section 1 -->
         <div class="relative">
-            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
-                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
-    
+            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+
+                <!-- Text content -->
+                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
                     <div>
                         <div>
                             <span class="flex h-12 w-22 items-center justify-center rounded-xl bg-pink-500">
@@ -26,7 +29,7 @@
                                 </svg>
                             </span>
                         </div>
-    
+
                         <div class="mt-6">
                             <h2 class="text-3xl font-bold tracking-tight text-white">
                                 {{ images.title }}
@@ -37,19 +40,26 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Image -->
                 <div class="mt-12 sm:mt-16 lg:mt-0">
-                    <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <div
+                        class="pl-6 md:pl-6 lg:relative lg:m-0 lg:h-full lg:px-0 lg:-mr-48 -mr-0 md:-mr-0">
                         <img loading="lazy" width="647" height="486"
-                            class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                            class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5
+                            lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                             style="color:transparent" src="{{ images.photo.url }}">
                     </div>
                 </div>
+
             </div>
         </div>
-    
 
+        <!-- Section 2 -->
         <div class="relative">
-            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+
+                <!-- Text content -->
                 <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
                     <div>
                         <div>
@@ -70,21 +80,27 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Video -->
                 <div class="mt-12 sm:mt-16 lg:mt-0">
-                    <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <div
+                        class="pr-6 md:pr-6 lg:relative lg:m-0 lg:h-full lg:px-0 lg:-ml-48 -ml-0 md:-ml-0">
                         <video src="{{ images.video.url }}" controls autoplay width="674" height="486"
-                        class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                        style="color:transparent" src="https://images.unsplash.com/photo-1599134842279-fe807d23316e" ></video>
+                            class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5
+                            lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                            style="color:transparent"></video>
                     </div>
                 </div>
+
             </div>
         </div>
-    
-    
-    
+
+        <!-- Section 3 -->
         <div class="relative">
-            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
-                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+
+                <!-- Text content -->
+                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
                     <div>
                         <div>
                             <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-pink-500">
@@ -103,14 +119,16 @@
                             </p>
                             <h1 class="text-white"> Author Name: {{ images.author }}</h1>
                             <div class="mt-6">
-                                <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                                <a
+                                    class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
                                     href="{% url 'base' %}">
                                     Back to Home
                                 </a>
                             </div>
                             {% if user.is_authenticated and images.author == user %}
                             <div class="mt-6">
-                                <a class="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-red-700 hover:ring-red-700"
+                                <a
+                                    class="inline-flex rounded-lg bg-red-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-red-700 hover:ring-red-700"
                                     href="{% url 'delete' images.pk %}">
                                     Delete
                                 </a>
@@ -119,17 +137,23 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Image -->
                 <div class="mt-12 sm:mt-16 lg:mt-0">
-                    <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <div
+                        class="pl-6 md:pl-6 lg:relative lg:m-0 lg:h-full lg:px-0 lg:-mr-48 -mr-0 md:-mr-0">
                         <img loading="lazy" width="646" height="485"
-                            class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                            style="color:transparent"
-                            src="{{ images.image.url }}">
+                            class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5
+                            lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                            style="color:transparent" src="{{ images.image.url }}">
                     </div>
                 </div>
+
             </div>
         </div>
+
     </div>
     {% include "pic/footer.html" %}
 </body>
+
 </html>

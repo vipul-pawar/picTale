@@ -2,47 +2,55 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>picTale.in</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 {% include "pic/navbar.html" %}
+
 <body class="bg-gray-900 text-gray-50">
     {% include "pic/slider.html" %}
     <div class="container mx-auto p-4">
         <h1 class="text-3xl font-bold font-serif text-center mb-6">
             Welcome to picTale.in
             <span class="text-white">
-              {% if request.user.is_authenticated %}
+                {% if request.user.is_authenticated %}
                 {{ request.user }}
-              {% endif %}
+                {% endif %}
             </span>
-          </h1> 
+        </h1>
 
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
             {% for image in images %}
             <a href="{% url 'detail' image.pk %}">
-            <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden aspect-square">
-                <img class="w-full h-60 object-cover" src="{{ image.photo.url }}" alt="{{ image.title }}" />
-                <div class="p-4">
-                    <h2 class="text-xl font-semibold hover:underline">{{ image.title }}</h2>
-                    {% comment %} <p class="text-gray-300 text-sm mt-2">{{ image.description |slice:"0:100" }}</p> {% endcomment %}
-                    <div class="mt-4 flex items-center justify-between text-gray-400 text-xs">
-                        <div class="flex items-center">
-                            <img class="h-8 w-8 rounded-full mr-2" 
-                                src="https://i.pinimg.com/564x/1d/1e/16/1d1e16ad5227a9c726b61bd7cc4eca33.jpg" 
-                                alt="User Avatar" />
-                            <span class="font-semibold">{{ image.author }}</span>
+                <div class="bg-gray-800 rounded-lg shadow-lg overflow-visible">
+                    <!-- Image container with responsive aspect ratio -->
+                    <div class="aspect-square md:aspect-auto rounded-t-lg overflow-hidden">
+                        <img class="w-full h-full object-cover" src="{{ image.photo.url }}" alt="{{ image.title }}" />
+                    </div>
+                    <!-- Content below the image -->
+                    <div class="p-4">
+                        <h2 class="text-xl font-semibold hover:underline">{{ image.title }}</h2>
+                        {% comment %} <p class="text-gray-300 text-sm mt-2">{{ image.description |slice:"0:100" }}</p> {% endcomment %}
+                        <div class="mt-4 flex items-center justify-between text-gray-400 text-xs">
+                            <div class="flex items-center">
+                                <img class="h-8 w-8 rounded-full mr-2"
+                                    src="https://i.pinimg.com/564x/1d/1e/16/1d1e16ad5227a9c726b61bd7cc4eca33.jpg"
+                                    alt="User Avatar" />
+                                <span class="font-semibold">{{ image.author }}</span>
+                            </div>
+                            <span>{{ image.date|date:"d M Y" }}</span>
                         </div>
-                        <span>{{ image.date|date:"d M Y" }}</span>
                     </div>
                 </div>
-            </div>
             </a>
             {% endfor %}
         </div>
     </div>
+
     {% include "pic/footer.html" %}
 </body>
+
 </html>
