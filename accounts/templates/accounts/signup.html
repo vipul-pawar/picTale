@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>picTale | signup</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="flex items-center justify-center h-screen bg-gray-800">
-    <div class="w-96 backdrop-blur-lg bg-opacity-80 rounded-lg shadow-lg p-5 bg-gray-900 text-white">
+    <div class="w-auto md:w-96 backdrop-blur-lg bg-opacity-80 rounded-lg shadow-lg p-5 bg-gray-900 text-white">
       {% if messages %}
         {% for message in messages %}
           <p class="text-red-500">{{ message }}</p>
@@ -70,13 +70,13 @@
           <div class="flex items-center justify-between mb-4">
             <button
               type="submit"
-              class="text-white bg-purple-600 hover:bg-purple-700 focus:ring-2 focus:ring-blue-300 font-medium rounded-lg text-sm py-2.5 px-5 w-full sm:w-auto"
+              class="text-white bg-purple-600 hover:bg-purple-700 focus:ring-2 focus:ring-blue-300 font-medium rounded-lg text-sm py-2.5 px-5 w-auto"
             >
               Register
             </button>
             <div class="flex items-center text-sm">
             <a href="{% url 'login' %}">
-              <p>Already have an account? login</p>
+              <p>Already have an account? <span class="underline text-blue-500">login</span></p>
             </a>
             </div>
           </div>
