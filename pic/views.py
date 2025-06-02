@@ -39,3 +39,12 @@ def delete(request,pk):
         images.delete()
         return redirect('base')
     return render(request, 'pic/detailBlog.html', {'images': images})    
+
+def update(request,pk):
+    image = get_object_or_404(Image, pk=pk)
+    form = ImageForm(request.POST or None, instance=image) #instance=image makes all data appear to the page
+    if form.is_valid():
+        image.author = request.user
+        form.save()
+        return redirect('base')
+    return render(request, 'pic/updateBlog.html', {'image': image, 'form': form})    

@@ -29,5 +29,5 @@ urlpatterns = [
     path('team/', views.team, name='team'),
     path('contact/', views.contact, name='contact'),
     path('delete/<int:pk>', views.delete, name='delete'),
+    path('update/<int:pk>', views.update, name='update'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-    
