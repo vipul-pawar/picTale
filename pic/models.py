@@ -4,8 +4,8 @@ from django.contrib.auth.models import User
 class Image(models.Model):
     photo = models.ImageField(upload_to='myimages/')
     image = models.ImageField(upload_to='myimages/', null=True, blank=True)
-    title = models.CharField(max_length=100)
-    description = models.TextField()
+    title = models.CharField(max_length=20)
+    description = models.TextField(max_length=600)
     date = models.DateTimeField(auto_now_add=True)
     video = models.FileField(upload_to='myvideos/', null=True, blank=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
