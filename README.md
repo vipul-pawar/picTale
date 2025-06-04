@@ -82,18 +82,16 @@ Open your browser and visit:
 
 ## 🖼️ Screenshots
 
-> (<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.34 PM.png>)
-  (<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.42 PM.png>)
-  (<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.47 PM.png>)
-  (<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.55.47 PM.png>)
+> ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.34 PM.png>)
+  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.42 PM.png>)
+  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.47 PM.png>)
+  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.55.47 PM.png>)
+  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.56.00 PM.png>)
+  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.56.17 PM.png>)
+  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.56.20 PM.png>)
 
 ## 👤 Author
 
 **Vipul Pawar**
 🔗 [Linkedin](https://linkedin.com/in/vipul-pawar-gcoea)
-
-## 📃 License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ```
