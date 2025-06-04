@@ -23,10 +23,14 @@
 ```
 
 picTale/
+│──accounts/           # App to manage user login, logout
+│   ├──templates/      # HTML templates
 ├── pic/               # Main Django app
 │   ├── templates/     # HTML templates
 │   ├── static/        # Static files (CSS, JS)
 ├── media/             # Uploaded files
+│   ├── myimages       # Images folder
+│   ├── myvideos       # Video folder
 ├── manage.py          # Django management script
 └── requirements.txt   # Python dependencies
 
@@ -82,13 +86,7 @@ Open your browser and visit:
 
 ## 🖼️ Screenshots
 
-> ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.34 PM.png>)
-  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.42 PM.png>)
-  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.47 PM.png>)
-  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.55.47 PM.png>)
-  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.56.00 PM.png>)
-  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.56.17 PM.png>)
-  ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.56.20 PM.png>)
+> ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 4.23.49 PM.png>)
 
 ## 👤 Author
 
