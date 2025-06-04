@@ -82,7 +82,10 @@ Open your browser and visit:
 
 ## 🖼️ Screenshots
 
-> (![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.34 PM.png>))
+> (<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.34 PM.png>)
+  (<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.42 PM.png>)
+  (<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.53.47 PM.png>)
+  (<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 3.55.47 PM.png>)
 
 ## 👤 Author
 
