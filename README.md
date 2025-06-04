@@ -1,6 +1,6 @@
 # 📸 picTale
 
-**picTale** is a Django-based web application designed to let users upload, share, and view photos and videos. It’s optimized for responsive design and styled using Tailwind CSS for a modern and minimal UI experience.
+**picTale** is a Django-based web application that allows users to upload, view, edit, and delete photos and videos. It provides a clean, responsive user interface using Tailwind CSS and supports full **CRUD operations** for media content.
 
 ## 🚀 Features
 
@@ -92,4 +92,3 @@ Open your browser and visit:
 
 **Vipul Pawar**
 🔗 [Linkedin](https://linkedin.com/in/vipul-pawar-gcoea)
-```
