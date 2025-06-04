@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 📸 picTale
 
@@ -43,12 +41,24 @@ git clone https://github.com/vipul-pawar/picTale.git
 cd picTale
 ````
 
-### 2. Create Virtual Environment
+### 2. Create a Virtual Environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
+
+Activate it:
+
+* On **Windows**:
+
+  ```bash
+  venv\Scripts\activate
+  ```
+* On **macOS/Linux**:
+
+  ```bash
+  source venv/bin/activate
+  ```
 
 ### 3. Install Dependencies
 
@@ -56,29 +66,29 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Run Migrations
+### 4. Apply Migrations
 
 ```bash
 python manage.py migrate
 ```
 
-### 5. Run the Server
+### 5. Run the Development Server
 
 ```bash
 python manage.py runserver
 ```
 
-Visit `http://127.0.0.1:8000/` in your browser.
+Open your browser and visit:
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ## 🖼️ Screenshots
 
-*(Optional: Add screenshots here once available)*
+> *(Coming soon – add your app screenshots here to showcase the UI and features)*
 
 ## 👤 Author
 
 **Vipul Pawar**
-📎 [GitHub](https://github.com/vipul-pawar)
-📫 [LinkedIn](https://www.linkedin.com/in/vipul-pawar/) *(optional)*
+🔗 [GitHub](https://github.com/vipul-pawar)
 
 ## 📃 License
 
