@@ -84,7 +84,7 @@ python manage.py runserver
 Open your browser and visit:
 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-## Hosted on Render 
+## Hosted on Render
 > https://pictale.onrender.com/ (👈 feel UI here)
 site will take 30-50 second to load initially as it is hosted on free-tier 
 
