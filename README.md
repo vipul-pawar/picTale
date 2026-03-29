@@ -36,7 +36,7 @@ picTale/
 
 ````
 
-## ⚙️ Installation
+## ⚙️ Installatio
 
 ### 1. Clone the Repository
 ```bash
