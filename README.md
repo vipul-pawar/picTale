@@ -94,5 +94,5 @@ site will take 30-50 second to load initially as it is hosted on free-tier
 
 ## 👤 Author
 
-**Vipul Pawar**
+**Vipul Pawar*
 🔗 [Linkedin](https://linkedin.com/in/vipul-pawar-gcoea)
