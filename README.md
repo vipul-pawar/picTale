@@ -88,7 +88,7 @@ Open your browser and visit:
 > https://pictale.onrender.com/ (👈 feel UI here)
 site will take 30-50 second to load initially as it is hosted on free-tier 
 
-## 🖼️ Screenshots
+## 🖼️ Screenshot
 
 > ![alt text](<screenshoots/picTale.in and 2 more pages - Personal - Microsoft​ Edge 04-06-2025 4.23.49 PM.png>)
 
