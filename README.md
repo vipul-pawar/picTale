@@ -19,6 +19,7 @@
 - **Version Control:** Git & GitHub
 
 ## 📁 Project Structure
+
 ```
 
 picTale/
