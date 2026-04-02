@@ -46,11 +46,6 @@ cd picTale
 
 ### 2. Create a Virtual Environment
 
-
-
-
-
-
 ```bash
 python -m venv venv
 ```
