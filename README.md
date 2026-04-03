@@ -20,7 +20,6 @@
 
 ## 📁 Project Structure
 
-
 ```
 
 picTale/
