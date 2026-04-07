@@ -12,7 +12,6 @@
 - Admin panel to manage content
 
 ## 🛠️ Tech Stack
-
 - **Backend:** Django (Python)
 - **Frontend:** HTML, Tailwind CSS
 - **Database:** SQLite (default)
