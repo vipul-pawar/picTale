@@ -11,7 +11,7 @@
 - Clean dark mode interface using Tailwind CSS
 - Admin panel to manage content
 
-## 🛠️ Tech Stac
+## 🛠️ Tech Stack
 
 - **Backend:** Django (Python)
 - **Frontend:** HTML, Tailwind CSS
