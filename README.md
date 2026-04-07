@@ -3,7 +3,6 @@
 **picTale** is a Django-based web application that allows users to upload, view, edit, and delete photos and videos. It provides a clean, responsive user interface using Tailwind CSS and supports full **CRUD operations** for media content.
 
 ## 🚀 Features
-
 - User authentication and profile management
 - Upload photos and videos with captions
 - View detailed media pages with descriptions
